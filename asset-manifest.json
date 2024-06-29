@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Andrii-Podieniezhnyi/project__online_bookstore/static/css/main.f855e6bc.css",
+    "main.js": "/Andrii-Podieniezhnyi/project__online_bookstore/static/js/main.09039647.js",
+    "static/js/453.3043d252.chunk.js": "/Andrii-Podieniezhnyi/project__online_bookstore/static/js/453.3043d252.chunk.js",
+    "static/media/logo.svg": "/Andrii-Podieniezhnyi/project__online_bookstore/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Andrii-Podieniezhnyi/project__online_bookstore/index.html",
+    "main.f855e6bc.css.map": "/Andrii-Podieniezhnyi/project__online_bookstore/static/css/main.f855e6bc.css.map",
+    "main.09039647.js.map": "/Andrii-Podieniezhnyi/project__online_bookstore/static/js/main.09039647.js.map",
+    "453.3043d252.chunk.js.map": "/Andrii-Podieniezhnyi/project__online_bookstore/static/js/453.3043d252.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.09039647.js"
+  ]
+}
