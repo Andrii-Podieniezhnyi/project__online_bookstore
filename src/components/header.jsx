@@ -1,4 +1,4 @@
-
+//import shopping_cart from '../media/header/shopping_cart.svg'
 
 
 
@@ -13,7 +13,7 @@ export function Header() {
                             <ul>
                                 <li>
                                     <a href="/spopping-cart">
-                                        <img src="../media/header/spopping_cart.svg" alt="spopping_cart"/>
+                                    <img src="/media/header/shopping_cart.svg" alt="shopping_cart"/>
                                     </a>
                                 </li>
                                 <li>
