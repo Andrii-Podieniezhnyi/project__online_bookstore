@@ -1,3 +1,7 @@
+
+
+
+
 export function Header() {
     return(
         <header>
@@ -9,12 +13,12 @@ export function Header() {
                             <ul>
                                 <li>
                                     <a href="/spopping-cart">
-                                        <img src="../media/header/spopping_cart.svg" alt="spopping_cart" />
+                                        <img src="../media/header/spopping_cart.svg" alt="spopping_cart"/>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="./main">
-                                        <img src="../media/header/user_default_avatar.png" alt="user_default_avatar" />
+                                        <img src="../media/header/user_default_avatar.png" alt="user_default_avatar"/>
                                     </a>
                                     <span className="user_name">Coder</span>
                                 </li>
