@@ -1,4 +1,6 @@
-//import shopping_cart from '../media/header/shopping_cart.svg'
+import shopping_cart from '../media/header/shopping_cart.svg';
+import user_default_avatar from '../media/header/user_default_avatar.png';
+
 
 
 
@@ -13,12 +15,12 @@ export function Header() {
                             <ul>
                                 <li>
                                     <a href="/spopping-cart">
-                                        <img src="/media/header/shopping_cart.svg" alt="shopping_cart"/>
+                                        <img src={shopping_cart} alt="shopping_cart"/>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="./main">
-                                        <img src="/media/header/user_default_avatar.png" alt="user_default_avatar"/>
+                                        <img src={user_default_avatar} alt="user_default_avatar"/>
                                     </a>
                                     <span className="user_name">Coder</span>
                                 </li>
