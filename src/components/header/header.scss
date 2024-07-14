@@ -9,6 +9,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 100%;
+
+        a{
+            margin-left: 30px;
+        }
   }
   
   .header_shopping_cart__header_user__container ul{
@@ -16,7 +20,7 @@ nav{
     display: flex;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 320px;
     justify-content: space-around;
 
         img {
@@ -24,3 +28,10 @@ nav{
         }
   }
 
+
+  .header_shopping_cart__header_user__container li:last-child{
+    display: flex;
+    align-items: center;
+    width: 124px;
+    justify-content: space-around;
+  }
