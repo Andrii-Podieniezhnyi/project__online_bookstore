@@ -1,0 +1,21 @@
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+  }
+  
+  .header_nav__container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header_shopping_cart__header_user__container ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+
+        img {
+            width: 38px;
+        }
+  }
+

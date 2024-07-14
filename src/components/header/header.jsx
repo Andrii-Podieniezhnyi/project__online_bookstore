@@ -1,5 +1,5 @@
-import shopping_cart from '../media/header/shopping_cart.svg';
-import user_default_avatar from '../media/header/user_default_avatar.png';
+import shopping_cart from '../../media/header/shopping_cart.svg';
+import user_default_avatar from '../../media/header/user_default_avatar.png';
 
 
 
