@@ -7,7 +7,7 @@ a{
   text-decoration: none;
 }
 
-.card-img-top{
+.card{
   background-color: chartreuse;
   height: 100px;
 }
