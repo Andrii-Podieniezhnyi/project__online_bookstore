@@ -2,11 +2,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
 import {Header} from './components/header/header';
 import './components/header/header.css'
+import { Footer } from './components/footer/footer';
+import './components/footer/footer.css'
 
 function App() {
   return (
     <div>
-      <div className="App">
+      <div>
         <Header />
       </div>
       <div className='container mt-4'>
@@ -30,6 +32,9 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div> 
   );
