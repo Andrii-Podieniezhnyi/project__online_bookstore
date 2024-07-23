@@ -4,6 +4,7 @@ import './components/header/header.css'
 import { Footer } from './components/footer/footer';
 import './components/footer/footer.css';
 import { Main } from './components/main/main';
+import './components/main/main.css'
 
 function App() {
   return (

@@ -6,12 +6,3 @@ body{
 a{
   text-decoration: none;
 }
-
-.card{
-  background-color: chartreuse;
-  height: 100px;
-}
-
-.main_container{
-  height: 85vh;
-}
