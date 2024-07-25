@@ -4,7 +4,7 @@
         "1": {
             "id": 1,
             "author": "ЕРІК ФРІМЕН, ЕЛІЗАБЕТ РОБСОН",
-            "cover": "gs://script-store-50560.appspot.com/1.Head First JavaScript Programming.png",
+            "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/1.Head%20First%20JavaScript%20Programming.png?alt=media&token=a0094da7-9d61-492e-b4f0-7f1fc278df48",
             "title": "«Head First. Програмування на JavaScript»",
             "price": "$10.99",
             "description": "Об’ємний посібник, де зібрана ключова інформація про JavaScript: від основ до складніших тем — типів, масивів, функцій, об’єктів та DOM. Зачіпають також успадкування прототипів та тестування продуктів. ",
