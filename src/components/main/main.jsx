@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState, useEffect} from "react";
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
+import { Database, ref, onValue } from "firebase/database";
+
 
 export function Main () {
     return(
