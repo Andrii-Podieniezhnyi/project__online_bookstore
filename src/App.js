@@ -3,8 +3,8 @@ import { Header } from './components/header/header';
 import './components/header/header.css'
 import { Footer } from './components/footer/footer';
 import './components/footer/footer.css';
-import { Main } from './components/main/main';
-import './components/main/main.css'
+import BookList from './components/book_list/book_list';
+import './components/book_list/book_list.css'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Header />
       </div>
       <div>
-        <Main />
+        <BookList />
       </div>
       <div>
         <Footer />
