@@ -25,24 +25,18 @@ const BookList = () => {
       <section>
           <div className='container mt-4 main_container'>
               <div className='row'>
-                <div className='col-lg-3 col-md-4 col-sm-6 mb-4'>
-                  <div className="card">
-                    <img src="path/to/book1.jpg" className="card-img-top" alt="Book 1" />
-                    <div className="card-body">
-                      <h5 className="card-title">Book Title 1</h5>
-                      <p className="card-text">Author Name</p>
+                {books.map((book) => (
+                  <div className='col-lg-3 col-md-4 col-sm-6 mb-4'>
+                    <div className="card">
+                      <img src={book.cover} className="card-img-top" alt={book.title} />
+                      <div className="card-body">
+                        <h5 className="card-title">{book.title}</h5>
+                        <p className="card-text">{book.author}</p>
+                        <p className="card-text">{book.price}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className='col-lg-3 col-md-4 col-sm-6 mb-4'>
-                  <div className="card">
-                      <img src="path/to/book1.jpg" className="card-img-top" alt="Book 1" />
-                      <div className="card-body">
-                        <h5 className="card-title">Book Title 1</h5>
-                        <p className="card-text">Author Name</p>
-                      </div>
-                  </div>
-                </div>
+                ))}
               </div>
           </div>
       </section>
