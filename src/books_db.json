@@ -62,7 +62,11 @@
             "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/5.%20JavaScript%20%26%20JQuery%20Interactive%20Front-End%20Web%20Development%20by%20Jon%20Duckett.png?alt=media&token=1a3596a5-6387-4341-bc15-e5ed7551ee74",
             "title": "«Javascript та jQuery. Інтерактивна веброзробка»",
             "price": "$14.99",
-            "description": ""
+            "description": "Книжка насичена візуальними матеріалами. Вони дозволяють краще відчути, як зробити вебсторінки більш інтерактивними, а інтерфейси — більш інтуїтивно зрозумілими. Автор на прикладах показує, як з нуля проєктувати сценарії JavaScript, JavaScript API, а також jQuery. Щоби ефективно опрацювати книжку, знадобляться базові знання HTML та CSS.",
+            "benefits": {
+                "1": "проста та зрозуміла мова;",
+                "2": "багато візуальних елементів роблять взаємодію з книгою цікавішою."
+            }
         }
 
 
