@@ -96,7 +96,15 @@
         "8": {
             "id": 8,
             "author": "ADITYA Y. BHARGAVA",
-            "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/8.%20Grokking%20Algorithms%20An%20Illustrated%20Guide%20for%20Programmers%20and%20Other%20Curious%20People.png?alt=media&token=1efcc838-bd0e-4f6b-ad8d-46dbe5885fae"
+            "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/8.%20Grokking%20Algorithms%20An%20Illustrated%20Guide%20for%20Programmers%20and%20Other%20Curious%20People.png?alt=media&token=1efcc838-bd0e-4f6b-ad8d-46dbe5885fae",
+            "title": "Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People",
+            "price": "$29.99",
+            "description": "Книжка не висвітлює безпосередньо JavaScript, але вважається одним з найкращих видань про алгоритми та структуру даних. Вона складається з 11 розділів, де йдеться про сортування, рекурсію, хештаблиці, зв’язані списки, а також динамічне програмування. «Її корисно прочитати як джунам, так і мідлам та сеньйорам, які прагнуть зробити свої програми більш логічними», — каже Марія.",
+            "benefits": {
+                "1": "проста та зрозуміла мова, поняття введені у контекст;",
+                "2": "малюнки допомагають краще уявити структуру роботи алгоритмів та структур даних;",
+                "3": "багато прикладів."
+            }
         }
 
 
