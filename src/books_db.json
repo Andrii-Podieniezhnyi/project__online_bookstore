@@ -80,7 +80,7 @@
         },
 
         "7": {
-            "id": "7",
+            "id": 7,
             "author": "DAVID FLANAGAN",
             "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/7.%20JavaScript%20The%20Definitive%20Guide.png?alt=media&token=b30306e7-cca4-4e87-840d-29a92bce210e",
             "title": "«JavaScript: The Definitive Guide»",
@@ -91,6 +91,12 @@
                 "2": "пояснення підійдуть як для тих, хто працює з клієнтською версією JS, так і для тих, хто використовує серверну;",
                 "3": "багато релевантних прикладів."
             }
+        },
+
+        "8": {
+            "id": 8,
+            "author": "ADITYA Y. BHARGAVA",
+            "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/8.%20Grokking%20Algorithms%20An%20Illustrated%20Guide%20for%20Programmers%20and%20Other%20Curious%20People.png?alt=media&token=1efcc838-bd0e-4f6b-ad8d-46dbe5885fae"
         }
 
 
