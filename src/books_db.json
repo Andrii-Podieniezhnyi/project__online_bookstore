@@ -145,6 +145,12 @@
                 "1": "містить інформацію, щоб заповнити прогалини у фундаментальній теорії JavaScript;",
                 "2": "насичена прикладами з особистої практики автора, а також рекомендаціями для створення застосунків різного масштабу."
             }
+        },
+
+        "12": {
+            "id": 12,
+            "author": "CAY HORSTMANN",
+            "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/12.%20Modern%20JavaScript%20for%20the%20Impatient.png?alt=media&token=8622f93b-3458-4538-85d1-c3610ee600b4"
         }
 
 
