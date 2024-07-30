@@ -150,7 +150,14 @@
         "12": {
             "id": 12,
             "author": "CAY HORSTMANN",
-            "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/12.%20Modern%20JavaScript%20for%20the%20Impatient.png?alt=media&token=8622f93b-3458-4538-85d1-c3610ee600b4"
+            "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/12.%20Modern%20JavaScript%20for%20the%20Impatient.png?alt=media&token=8622f93b-3458-4538-85d1-c3610ee600b4",
+            "title": "«Modern JavaScript for the Impatient» ",
+            "price": "$26.49",
+            "description": "Вичерпний посібник із JavaScript ES6 та сучасніших версій мови, де зібрано практичні рекомендації та зразки коду. Книжка допомагає ефективно використати всі новинки JavaScript, уникаючи помилок і застарілого синтаксису. Книга підійде для тих, хто вже працював з іншими мовами та хоче швидко зрозуміти JavaScript.",
+            "benefits": {
+                "1": "можливість опанувати сучасний стандарт JS без занурення у старіші версії;",
+                "2": "«ігрова» система навігації з натяком на «Алісу в Дивокраї». Картинки позначають складність розділів: Білий Кролик — основи, Аліса — матеріали середнього рівня складності, Чеширський кіт — просунуті теми, Капелюшник — теми «із зірочкою» для найбільш зацікавлених."
+            }
         }
 
 
