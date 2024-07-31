@@ -164,7 +164,9 @@
             "id": 13,
             "author": "STOYAN STEFANOV",
             "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/13.%20JavaScript%20Patterns%20Build%20Better%20Applications%20with%20Coding%20and%20Design%20Patterns.png?alt=media&token=73f2aa2d-3833-4ae6-829e-d10278f4e3bb",
-            
+            "title": "«JavaScript Patterns: Build Better Applications with Coding and Design Patterns»",
+            "description": "Як видно з назви, основна тема книжки — шаблони проєктування для масштабованого та якісного коду. Як класичні, так і досить специфічні. Крім того, Стефан Стоянов наводить способи обійти недоліки мови. Видання буде корисним, якщо ви — досвідчений розробник, який прагне розв’язати проблеми, пов’язані з об’єктами, функціями, успадкуванням та іншими специфічними для мови категоріями.",
+            "benefits":
         }
 
 
