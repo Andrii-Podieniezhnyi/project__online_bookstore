@@ -190,7 +190,11 @@
         "15": {
             "id": 15,
             "author": "ERIC ELLIOTT",
-            "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/15.%20Programming%20JavaScript%20Applications%20Robust%20Web%20Architecture%20with%20Node%2C%20HTML5%2C%20and%20Modern%20JS%20Libraries%201st%20Edition.png?alt=media&token=d63e2ba0-6352-4991-897e-fc3089c4d454"
+            "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/15.%20Programming%20JavaScript%20Applications%20Robust%20Web%20Architecture%20with%20Node%2C%20HTML5%2C%20and%20Modern%20JS%20Libraries%201st%20Edition.png?alt=media&token=d63e2ba0-6352-4991-897e-fc3089c4d454",
+            "title": "«Programming JavaScript Applications»",
+            "price": "$38.49",
+            "description": "Буває так, що внесені зміни в одній частині коди впливають на роботу застосунку в зовсім іншому місці, або взагалі його ламають. Ерік Еліот вчить писати стійкий код, з яким буде легше працювати в міру зростання кодової бази. Він показує, як додавати клієнтські та серверні функції до масштабних вебзастосунків на JavaScript без негативного впливу на решту коду.",
+            
         }
 
 
