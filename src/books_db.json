@@ -185,6 +185,12 @@
                 "1": "видання об’єднує багато різних матеріалів у своєрідну дорожню карту та структурує їх;",
                 "2": "корисно для команд, які працюють із масштабними проєктами на JavaScript."
             }
+        },
+
+        "15": {
+            "id": 15,
+            "author": "ERIC ELLIOTT",
+            "cover": "https://firebasestorage.googleapis.com/v0/b/script-store-50560.appspot.com/o/15.%20Programming%20JavaScript%20Applications%20Robust%20Web%20Architecture%20with%20Node%2C%20HTML5%2C%20and%20Modern%20JS%20Libraries%201st%20Edition.png?alt=media&token=d63e2ba0-6352-4991-897e-fc3089c4d454"
         }
 
 
