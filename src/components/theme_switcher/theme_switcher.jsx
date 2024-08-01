@@ -10,5 +10,18 @@ export function ThemeSwitcher() {
 
     useEffect(() => {
         localStorage.setItem('theme', theme);
-    })
+        document.body.className = theme;
+    }, [theme]);
+
+    const toggleTheme = () => {
+        setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'))
+    }
+
+
+    return (
+
+        <button onClick={toggleTheme}>
+            {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
+        </button>
+    )
 }
