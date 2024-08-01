@@ -8,5 +8,7 @@ export function ThemeSwitcher() {
     })
 
 
-
+    useEffect(() => {
+        localStorage.setItem('theme', theme);
+    })
 }
