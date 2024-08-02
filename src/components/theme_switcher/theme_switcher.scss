@@ -1,9 +1,21 @@
-.light{
+.light_theme{
     background-color: white;
+
+    .color_theme_switcher__button_dark{
+        opacity: 0.5;
+    }
 }
 
-.dark{
+.dark_theme{
     background-color: #1e1b30;
+
+    .color_theme_switcher__button_light{
+        opacity: 0.5;
+    }
+
+    .footer__content{
+        color: #fff;
+    }
 }
 
 .color_theme_switcher__indication {
@@ -15,6 +27,7 @@
     transition: .2s;
     margin-left: 10px;
     margin-right: 10px;
+    transition: background-color 0.2s;
 }
 
 .color_theme_switcher__indication_ico {
@@ -25,7 +38,8 @@
     top: 2px;
     background: #0056d0;
     border-radius: 50%;
-    transition: .2s;
+    transition: transform .2s;
+    
 }
 
 .color_theme_switcher__indication_ico:before {
@@ -43,4 +57,12 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+}
+
+body.light_theme .color_theme_switcher__indication_ico {
+    transform: translateX(0);
+}
+
+body.dark_theme .color_theme_switcher__indication_ico {
+    transform: translateX(18px);
 }
