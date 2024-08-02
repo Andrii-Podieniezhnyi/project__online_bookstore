@@ -19,9 +19,23 @@ export function ThemeSwitcher() {
 
 
     return (
+        
+/*
+        <div class="color-theme">
+            <div class="color-theme__button color-theme__button--light">Light</div>
+                <div class="color-theme__indication">
+                    <div class="color-theme__indication_ico"></div>
+                </div>
+            <div class="color-theme__button color-theme__button--dark">Dark</div>
+        </div>
+*/
 
-        <button onClick={toggleTheme}>
-            {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
-        </button>
+        <div onClick={toggleTheme}>
+            <div class="color-theme__button color-theme__button--light">Light</div>
+                <div class="color-theme__indication">
+                    <div class="color-theme__indication_ico"></div>
+                </div>
+            <div class="color-theme__button color-theme__button--dark">Dark</div>
+        </div>
     )
 }
