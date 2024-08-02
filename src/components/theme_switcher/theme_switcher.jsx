@@ -30,12 +30,12 @@ export function ThemeSwitcher() {
         </div>
 */
 
-        <div onClick={toggleTheme}>
-            <div class="color-theme__button color-theme__button--light">Light</div>
-                <div class="color-theme__indication">
-                    <div class="color-theme__indication_ico"></div>
+        <div className="color_theme_switcher" onClick={toggleTheme}>
+            <div class="color_theme_switcher__button_light">Light</div>
+                <div class="color_theme_switcher__indication">
+                    <div class="color_themetheme_switcher__indication_ico"></div>
                 </div>
-            <div class="color-theme__button color-theme__button--dark">Dark</div>
+            <div class="color_theme_switcher__button_dark">Dark</div>
         </div>
     )
 }
