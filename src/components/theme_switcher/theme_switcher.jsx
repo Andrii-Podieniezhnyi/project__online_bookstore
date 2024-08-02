@@ -33,7 +33,7 @@ export function ThemeSwitcher() {
         <div className="color_theme_switcher" onClick={toggleTheme}>
             <div class="color_theme_switcher__button_light">Light</div>
                 <div class="color_theme_switcher__indication">
-                    <div class="color_themetheme_switcher__indication_ico"></div>
+                    <div class="color_theme_switcher__indication_ico"></div>
                 </div>
             <div class="color_theme_switcher__button_dark">Dark</div>
         </div>
