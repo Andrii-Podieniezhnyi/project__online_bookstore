@@ -201,7 +201,7 @@ body {
 .tetris {
 	animation-name: bounce;
 	position: relative;
-    height: 80vh;
+    height: 91vh;
     
 	&:after {
 		background-color: hsl(var(--hue),10%,70%);
@@ -226,7 +226,7 @@ body {
 		display: grid;
 		position: absolute;
 		top: 30%;
-		left: 45%;
+		left: 50%;
 		transform-origin: 1em 1em;
 
 		$letters: a b c d;
