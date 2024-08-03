@@ -38,8 +38,10 @@ const BookList = () => {
   return (
     <main>
       <section>
-        <div className='container mt-4 main_container'>
-          { loading ? (<Preloader />) : ( 
+
+        
+          { loading ? (<Preloader />) : (
+             <div className='container mt-4 main_container'>
               <div className='row'>
                 {books.map((book) => (
                   <div className='col-lg-3 col-md-4 col-sm-6 mb-4' key={book.id}>
@@ -54,9 +56,9 @@ const BookList = () => {
                   </div>
                 ))}
               </div>
+            </div>  
             )
           }
-        </div>
       </section>
     </main>
   )
