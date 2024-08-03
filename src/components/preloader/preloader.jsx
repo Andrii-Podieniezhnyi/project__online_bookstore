@@ -11,13 +11,13 @@ export function Preloader() {
 		    	<div className="tetris__block-cell"></div>
 		    	<div className="tetris__block-cell"></div>
 		    </div>
-		    <div classNameName="tetris__block tetris__block--2">
+		    <div className="tetris__block tetris__block--2">
 		    	<div className="tetris__block-cell"></div>
 		    	<div className="tetris__block-cell"></div>
 		    	<div className="tetris__block-cell"></div>
 		    	<div className="tetris__block-cell"></div>
 		    </div>
-		    <div classNameName="tetris__block tetris__block--3">
+		    <div className="tetris__block tetris__block--3">
 		    	<div className="tetris__block-cell"></div>
 		    	<div className="tetris__block-cell"></div>
 		    	<div className="tetris__block-cell"></div>
