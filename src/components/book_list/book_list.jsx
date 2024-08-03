@@ -27,10 +27,7 @@ const BookList = () => {
       console.error("Error fetching data:", error);
       console.log(error.message);
     
-      /*
-      const booksArray = Object.values(data);
-      setBooks(booksArray);
-*/ 
+ 
     });
 
   }, []);
