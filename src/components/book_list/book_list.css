@@ -1,1 +1,1 @@
-.card{--bs-card-height:560px}.card-img-top{height:65%}.card-title{height:4.5em}
+.card{--bs-card-height:560px;cursor:pointer}.card:hover{scale:0.2}.card-img-top{height:65%}.card-title{height:4.5em}
