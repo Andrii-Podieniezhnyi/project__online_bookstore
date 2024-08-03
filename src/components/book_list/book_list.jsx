@@ -2,12 +2,14 @@ import React, { useState, useEffect} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ref, onValue } from "firebase/database";
 import { database } from "../../firebase";
+import { Preloader } from "../preloader/preloader";
 
 
 
 const BookList = () => {
 
   const [books, setBooks] = useState([]);
+  const [loading, setLoading] = useState(true);
   
 
   useEffect(() => {
@@ -23,11 +25,11 @@ const BookList = () => {
       } else {
         console.log("No data available");
       }
+      setLoading(false);
     }, (error) => {
       console.error("Error fetching data:", error);
       console.log(error.message);
-    
- 
+      setLoading(false);
     });
 
   }, []);
@@ -37,6 +39,7 @@ const BookList = () => {
     <main>
       <section>
         <div className='container mt-4 main_container'>
+          
             <div className='row'>
               {books.map((book) => (
                 <div className='col-lg-3 col-md-4 col-sm-6 mb-4' key={book.id}>
