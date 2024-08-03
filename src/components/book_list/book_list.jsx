@@ -36,22 +36,22 @@ const BookList = () => {
   return (
     <main>
       <section>
-          <div className='container mt-4 main_container'>
-              <div className='row'>
-                {books.map((book) => (
-                  <div className='col-lg-3 col-md-4 col-sm-6 mb-4' key={book.id}>
-                    <div className="card">
-                      <img src={book.cover} className="card-img-top" alt={book.title} />
-                      <div className="card-body">
-                        <h5 className="card-title">{book.title}</h5>
-                        <p className="card-text">{book.author}</p>
-                        <p className="card-text">{book.price}</p>
-                      </div>
+        <div className='container mt-4 main_container'>
+            <div className='row'>
+              {books.map((book) => (
+                <div className='col-lg-3 col-md-4 col-sm-6 mb-4' key={book.id}>
+                  <div className="card">
+                    <img src={book.cover} className="card-img-top" alt={book.title} />
+                    <div className="card-body">
+                      <h5 className="card-title">{book.title}</h5>
+                      <p className="card-text">{book.author}</p>
+                      <p className="card-text">{book.price}</p>
                     </div>
                   </div>
-                ))}
-              </div>
-          </div>
+                </div>
+              ))}
+            </div>
+        </div>
       </section>
     </main>
   )
