@@ -38,8 +38,6 @@ const BookList = () => {
   return (
     <main>
       <section>
-
-        
           { loading ? (<Preloader />) : (
              <div className='container mt-4 main_container'>
               <div className='row'>
