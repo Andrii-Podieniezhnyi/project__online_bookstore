@@ -1,5 +1,11 @@
 import React from "react";
-import { useParams, useNavigate } from 'react-router-dom';
 import { database } from "../../firebase";
+//import { useParams, useNavigate } from 'react-router-dom';
 
-console.log(database);
+
+
+
+
+export function BookModal() {
+    console.log(database);    
+}

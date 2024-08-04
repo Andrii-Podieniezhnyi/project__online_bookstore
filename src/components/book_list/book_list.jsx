@@ -4,6 +4,8 @@ import { ref, onValue } from "firebase/database";
 import { database } from "../../firebase";
 import { Preloader } from "../preloader/preloader";
 
+import { BookModal } from "../book_modal/book_modal";
+
 
 
 const BookList = () => {
@@ -41,6 +43,7 @@ const BookList = () => {
           { loading ? (<Preloader />) : (
              <div className='container mt-4 main_container'>
               <div className='row'>
+                <BookModal /> 
                 {books.map((book) => (
                   <div className='col-lg-3 col-md-4 col-sm-6 mb-4' key={book.id}>
                     <div className="card">
