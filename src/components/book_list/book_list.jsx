@@ -3,12 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import { ref, onValue } from "firebase/database";
 //import { database } from "../../firebase";
 import { Preloader } from "../preloader/preloader";
-
-//import { BookModal } from "../book_modal/book_modal";
+import { useBooks } from "../book_context/book_context";
+import { BookModal } from "../book_modal/book_modal";
 
 
 
 const BookList = () => {
+
+  const { books, loading } = useBooks();
 /*
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -37,16 +39,18 @@ const BookList = () => {
   }, []);
 */
 
+
+
+
   return (
     <main>
       <section>
           { loading ? (<Preloader />) : (
              <div className='container mt-4 main_container'>
-              <div className='row'>
-                {/*<BookModal />*/} 
+              <div className='row'> 
                 {books.map((book) => (
                   <div className='col-lg-3 col-md-4 col-sm-6 mb-4' key={book.id}>
-                    <div className="card">
+                    <div className="card" onClick={<BookModal />}>
                       <img src={book.cover} className="card-img-top" alt={book.title} />
                       <div className="card-body">
                         <h5 className="card-title">{book.title}</h5>
