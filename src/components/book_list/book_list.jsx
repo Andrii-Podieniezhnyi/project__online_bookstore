@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { ref, onValue } from "firebase/database";
-import { database } from "../../firebase";
+//import { ref, onValue } from "firebase/database";
+//import { database } from "../../firebase";
 import { Preloader } from "../preloader/preloader";
 
 //import { BookModal } from "../book_modal/book_modal";
