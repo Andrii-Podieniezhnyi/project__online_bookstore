@@ -12,17 +12,14 @@ import './style/index.css'
 
 function App() {
   return (
-    <div>
-      <div>
-        <Header />
-      </div>
-      <div>
-        <BookList />
-      </div>
-      <div>
-        <Footer />
-      </div>
-    </div> 
+    <Router>
+      <BookProvider>
+        <Routs>
+          <Route path = "/" element = {<BookList />}> </Route>
+          <Route path = "/book/:id" element = {<BookModal />}></Route>
+        </Routs>
+      </BookProvider>
+    </Router> 
   );
 }
 
