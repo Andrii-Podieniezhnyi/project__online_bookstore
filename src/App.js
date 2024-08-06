@@ -6,7 +6,7 @@ import './components/header/header.css'
 import { Footer } from './components/footer/footer';
 import './components/footer/footer.css';
 import BookList from './components/book_list/book_list';
-
+import { BookModal } from './components/book_modal/book_modal';
 import './components/book_list/book_list.css';
 import './style/index.css'
 
