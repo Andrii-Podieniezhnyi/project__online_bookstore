@@ -1,7 +1,5 @@
-import React from "react";
+import React, { useState} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { ref, onValue } from "firebase/database";
-//import { database } from "../../firebase";
 import { Preloader } from "../preloader/preloader";
 import { useBooks } from "../book_context/book_context";
 import { BookModal } from "../book_modal/book_modal";
@@ -11,6 +9,15 @@ import { BookModal } from "../book_modal/book_modal";
 const BookList = () => {
 
   const { books, loading } = useBooks();
+  const { selectedBook, setSelectedBook} = useState(null);
+
+  const handleCardClick = (book) => {
+    setSelectedBook(book);
+  }
+
+  const handleCloseModal = () => {
+    setSelectedBook(null)
+  }
 
 
 
@@ -21,7 +28,11 @@ const BookList = () => {
              <div className='container mt-4 main_container'>
               <div className='row'> 
                 {books.map((book) => (
-                  <div className='col-lg-3 col-md-4 col-sm-6 mb-4' key={book.id}>
+                  <div 
+                    className='col-lg-3 col-md-4 col-sm-6 mb-4' 
+                    key={book.id}
+                    onClick={()=> handleCardClick(book)}
+                    >
                     <div className="card" onClick={<BookModal />}>
                       <img src={book.cover} className="card-img-top" alt={book.title} />
                       <div className="card-body">
@@ -32,6 +43,7 @@ const BookList = () => {
                     </div>
                   </div>
                 ))}
+                {selectedBook && (<BookModal book={selectedBook} onClose={handleCloseModal}></BookModal>)}
               </div>
             </div>  
             )
