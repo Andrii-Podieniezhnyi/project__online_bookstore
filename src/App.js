@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routs} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { BookProvider } from './components/book_context/book_provider';
 import { Header } from './components/header/header';
 import './components/header/header.css'
@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <BookProvider>
-        <Routs>
+        <Routes>
           <Route path = "/" element = {<BookList />}> </Route>
           <Route path = "/book/:id" element = {<BookModal />}></Route>
           <div>
@@ -28,7 +28,7 @@ function App() {
               <Footer />
             </div>
           </div>
-        </Routs>
+        </Routes>
       </BookProvider>
     </Router> 
   );
