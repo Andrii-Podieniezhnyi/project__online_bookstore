@@ -9,7 +9,7 @@ import { Preloader } from "../preloader/preloader";
 
 
 const BookList = () => {
-
+/*
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
   
@@ -35,7 +35,7 @@ const BookList = () => {
     });
 
   }, []);
-
+*/
 
   return (
     <main>
