@@ -29,4 +29,10 @@ export const BookProvider = ({ children }) => {
             setLoading(false);
           });
     })
+
+    return (
+        <BookContext.Provider value = {{ books, loading}}>
+            {children}
+        </BookContext.Provider>
+    )
 }
