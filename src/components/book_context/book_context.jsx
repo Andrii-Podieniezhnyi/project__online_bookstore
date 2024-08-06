@@ -1,4 +1,4 @@
 import {createContext, useContext} from 'react';
 
-const BookContext = createContext();
-
+export const BookContext = createContext();
+export const useBooks = () => useContext(BookContext);
