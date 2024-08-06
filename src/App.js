@@ -17,6 +17,17 @@ function App() {
         <Routs>
           <Route path = "/" element = {<BookList />}> </Route>
           <Route path = "/book/:id" element = {<BookModal />}></Route>
+          <div>
+            <div>
+              <Header />
+            </div>
+            <div>
+              <BookList />
+            </div>
+            <div>
+              <Footer />
+            </div>
+          </div>
         </Routs>
       </BookProvider>
     </Router> 
