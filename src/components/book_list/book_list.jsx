@@ -33,7 +33,7 @@ const BookList = () => {
                     key={book.id}
                     onClick={()=> handleCardClick(book)}
                     >
-                    <div className="card" onClick={<BookModal />}>
+                    <div className="card">
                       <img src={book.cover} className="card-img-top" alt={book.title} />
                       <div className="card-body">
                         <h5 className="card-title">{book.title}</h5>
