@@ -30,7 +30,7 @@ export const BookModal = ({ book, onClose }) => {
     };
 
     return (
-        <div style={modalStyles}>
+        <div className="modal_window_style">
             <div style={contentStyles}>
                 <button style={closeButtonStyles} onClick={onClose}>&times;</button>
                 <h2>{book.title}</h2>
