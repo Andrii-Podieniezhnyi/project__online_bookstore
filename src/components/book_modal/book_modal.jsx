@@ -7,19 +7,7 @@ export const BookModal = ({ book, onClose }) => {
     if(!book) return null;
 
 
-    // Інлайн стилі для модального вікна
-    const modalStyles = {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        width: '100%',
-        height: '100%',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Напівпрозорий фон
-        zIndex: 1000, // Задає, що модальне вікно буде поверх іншого контенту
-    };
+  
 
     const contentStyles = {
         backgroundColor: '#fff',
