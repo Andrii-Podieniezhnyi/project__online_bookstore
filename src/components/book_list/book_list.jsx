@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Preloader } from "../preloader/preloader";
 import { useBooks } from "../book_context/book_context";
 import { BookModal } from "../book_modal/book_modal";
-
+import '../book_modal/book_modal.css';
 
 
 const BookList = () => {
