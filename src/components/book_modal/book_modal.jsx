@@ -9,15 +9,7 @@ export const BookModal = ({ book, onClose }) => {
 
   
 
-    const contentStyles = {
-        backgroundColor: '#fff',
-        borderRadius: '8px',
-        padding: '20px',
-        maxWidth: '500px',
-        width: '90%',
-        boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',
-        position: 'relative',
-    };
+    
 
     const closeButtonStyles = {
         position: 'absolute',
@@ -31,7 +23,7 @@ export const BookModal = ({ book, onClose }) => {
 
     return (
         <div className="modal_window_style">
-            <div style={contentStyles}>
+            <div className="modal_window__content_style">
                 <button style={closeButtonStyles} onClick={onClose}>&times;</button>
                 <h2>{book.title}</h2>
                 <p>{book.description}</p>
