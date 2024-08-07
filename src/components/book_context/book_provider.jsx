@@ -28,7 +28,7 @@ export const BookProvider = ({ children }) => {
             console.log(error.message);
             setLoading(false);
           });
-    })
+    }, [])
 
     return (
         <BookContext.Provider value = {{ books, loading}}>

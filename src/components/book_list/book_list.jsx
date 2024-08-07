@@ -9,10 +9,12 @@ import { BookModal } from "../book_modal/book_modal";
 const BookList = () => {
 
   const { books, loading } = useBooks();
-  const { selectedBook, setSelectedBook} = useState(null);
+  const [ selectedBook, setSelectedBook ] = useState(null);
 
   const handleCardClick = (book) => {
     setSelectedBook(book);
+    console.log("+");
+    console.log(book.id);
   }
 
   const handleCloseModal = () => {
@@ -31,7 +33,7 @@ const BookList = () => {
                   <div 
                     className='col-lg-3 col-md-4 col-sm-6 mb-4' 
                     key={book.id}
-                    onClick={()=> handleCardClick(book)}
+                    onClick={() => handleCardClick(book)}
                     >
                     <div className="card">
                       <img src={book.cover} className="card-img-top" alt={book.title} />
@@ -43,7 +45,7 @@ const BookList = () => {
                     </div>
                   </div>
                 ))}
-                {selectedBook && (<BookModal book={selectedBook} onClose={handleCloseModal}></BookModal>)}
+                {selectedBook && (<BookModal book={selectedBook} onClose={handleCloseModal} />)}
               </div>
             </div>  
             )

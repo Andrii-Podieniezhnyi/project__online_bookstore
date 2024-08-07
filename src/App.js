@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route path = "/" element = {<BookList />}> </Route>
-          <Route path = "/book/:id" element = {<BookModal />}></Route>
+          <Route path = "/book/id" element = {<BookModal />}></Route>
         </Routes>
         <Footer />
       </BookProvider>
