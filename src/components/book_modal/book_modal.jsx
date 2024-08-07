@@ -47,6 +47,11 @@ export const BookModal = ({ book, onClose }) => {
                 <button style={closeButtonStyles} onClick={onClose}>&times;</button>
                 <h2>{book.title}</h2>
                 <p>{book.description}</p>
+                <ul>
+                    {book.benefits?.map((benefits, index) => (
+                        <li key={index}>{benefits}</li>
+                    ))}
+                </ul>
             </div>
         </div>
     )
