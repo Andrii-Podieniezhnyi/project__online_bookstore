@@ -2,13 +2,14 @@ import React, { useState, useEffect } from "react";
 import { ref, onValue } from 'firebase/database';
 import { database } from "../../firebase";
 import { BookContext } from "./book_context";
-const [selectedLevel, setSelectedLevel] = useState('all');
+
 
 
 
 export const BookProvider = ({ children }) => {
     const [books, setBooks] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [selectedLevel, setSelectedLevel] = useState('all');
 
     useEffect(() => {
         const booksRef = ref(database, 'books');
