@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './difficulty_level_filter.css';
 import { useBooks } from '../book_context/book_context';
 
@@ -12,19 +12,34 @@ const levels = [
 
 const FilterComponent = () => {
   const { setSelectedLevel } = useBooks();
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
 
   return (
     <div className="filter-container">
-      {levels.map(level => (
-        <div
-          key={level.value}
-          className="filter-item"
-          onClick={() => setSelectedLevel(level.value)}
-        >
-          <img src={level.img} alt={level.name} className="filter-icon" />
-          <span>{level.name}</span>
+      <button className="dropdown-button" onClick={toggleDropdown}>
+        Select Level
+      </button>
+      {dropdownOpen && (
+        <div className="dropdown-menu">
+          {levels.map(level => (
+            <div
+              key={level.value}
+              className="dropdown-item"
+              onClick={() => {
+                setSelectedLevel(level.value);
+                setDropdownOpen(false);
+              }}
+            >
+              <img src={level.img} alt={level.name} className="filter-icon" />
+              <span>{level.name}</span>
+            </div>
+          ))}
         </div>
-      ))}
+      )}
     </div>
   );
 };
