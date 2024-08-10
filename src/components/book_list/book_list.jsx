@@ -12,8 +12,6 @@ const BookList = () => {
 
   const handleCardClick = (book) => {
     setSelectedBook(book);
-    console.log("+");
-    console.log(book.id);
   }
 
   const handleCloseModal = () => {
