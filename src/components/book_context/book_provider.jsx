@@ -29,10 +29,24 @@ export const BookProvider = ({ children }) => {
             console.log(error.message);
             setLoading(false);
           });
-    }, [])
+    }, []);
+
+
+    const filterBooksByLevel = (books, level) => {
+      if (level === 'all') return books;
+      return books.filter(book => book.level === level);
+    }
+
+
 
     return (
+      /*
         <BookContext.Provider value = {{ books, loading}}>
+            {children}
+        </BookContext.Provider>
+        */
+
+        <BookContext.Provider value={{ books: filterBooksByLevel(books, selectedLevel), loading, setSelectedLevel }}>
             {children}
         </BookContext.Provider>
     )
