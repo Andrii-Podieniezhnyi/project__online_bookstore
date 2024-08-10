@@ -41,12 +41,6 @@ export const BookProvider = ({ children }) => {
 
 
     return (
-      /*
-        <BookContext.Provider value = {{ books, loading}}>
-            {children}
-        </BookContext.Provider>
-        */
-
         <BookContext.Provider value={{ books: filterBooksByLevel(books, selectedLevel), loading, setSelectedLevel }}>
             {children}
         </BookContext.Provider>
