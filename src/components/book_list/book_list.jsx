@@ -24,7 +24,8 @@ const BookList = () => {
   return (
     <main>
       <section>
-          { loading ? (<Preloader />) : (
+      <FilterComponent />
+          {  loading ? (<Preloader />) : (
              <div className='container mt-4 main_container'>
               <div className='row'> 
                 {books.map((book) => (
