@@ -1,5 +1,5 @@
 import React from 'react';
-import './FilterComponent.css';
+import './difficulty_level_filter.css';
 import { useBooks } from '../book_context/book_context';
 
 const levels = [
