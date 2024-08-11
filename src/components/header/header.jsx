@@ -14,7 +14,7 @@ export function Header() {
                     <div className="header_nav__container">
                         <a href="./main">Script Store</a>
                         <ThemeSwitcher />
-                        <div className="header_shopping_cart__header_user__container">
+                        <div className="header_user__container">
                             <ul>
                                 <li>
                                     <a href="./main">
