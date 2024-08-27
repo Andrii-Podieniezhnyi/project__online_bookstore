@@ -10,7 +10,7 @@ const levels = [
   { name: 'All', value: 'all', img: 'path/to/all.png' },
   { name: 'Junior', value: 'junior', img: pichu_ico },
   { name: 'Mid-Level', value: 'mid', img: pikachu_ico },
-  { name: 'Senior', value: 'senior', img: 'path/to/raichu.png' },
+  { name: 'Senior', value: 'senior', img: raichu_ico },
   { name: 'Ninja', value: 'ninja', img: 'path/to/ninja-pikachu.png' },
 ];
 
