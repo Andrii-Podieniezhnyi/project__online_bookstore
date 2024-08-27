@@ -4,7 +4,7 @@ import { useBooks } from '../book_context/book_context';
 
 const levels = [
   { name: 'All', value: 'all', img: 'path/to/all.png' },
-  { name: 'Junior', value: 'junior', img: '././media/levels_icons/' },
+  { name: 'Junior', value: 'junior', img: '././media/levels_icons/pichu.png' },
   { name: 'Mid-Level', value: 'mid', img: 'path/to/pikachu.png' },
   { name: 'Senior', value: 'senior', img: 'path/to/raichu.png' },
   { name: 'Ninja', value: 'ninja', img: 'path/to/ninja-pikachu.png' },
