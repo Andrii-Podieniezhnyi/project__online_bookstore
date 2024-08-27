@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import './difficulty_level_filter.css';
 import { useBooks } from '../book_context/book_context';
+import pichu_ico from "../../media/levels_icons/pichu_ico.png";
 
 const levels = [
   { name: 'All', value: 'all', img: 'path/to/all.png' },
-  { name: 'Junior', value: 'junior', img: '././media/levels_icons/pichu.png' },
+  { name: 'Junior', value: 'junior', img: pichu_ico },
   { name: 'Mid-Level', value: 'mid', img: 'path/to/pikachu.png' },
   { name: 'Senior', value: 'senior', img: 'path/to/raichu.png' },
   { name: 'Ninja', value: 'ninja', img: 'path/to/ninja-pikachu.png' },
