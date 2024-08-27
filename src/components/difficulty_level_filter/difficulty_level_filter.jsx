@@ -4,6 +4,7 @@ import { useBooks } from '../book_context/book_context';
 import pichu_ico from "../../media/levels_icons/pichu_ico.png";
 import pikachu_ico from "../../media/levels_icons/pikachu_ico.png";
 import raichu_ico from "../../media/levels_icons/raichu_ico.png";
+import pikachu_ninja_ico from "../../media/levels_icons/pikachu_ninja_ico.jpg";
 
 const levels = [
   { name: 'All', value: 'all', img: 'path/to/all.png' },
