@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './difficulty_level_filter.css';
 import { useBooks } from '../book_context/book_context';
 import pichu_ico from "../../media/levels_icons/pichu_ico.png";
+import pikachu_ico from "../../media/levels_icons/pikachu_ico.png"
 
 const levels = [
   { name: 'All', value: 'all', img: 'path/to/all.png' },
