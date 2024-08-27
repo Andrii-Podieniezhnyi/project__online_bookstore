@@ -11,7 +11,7 @@ const levels = [
   { name: 'Junior', value: 'junior', img: pichu_ico },
   { name: 'Mid-Level', value: 'mid', img: pikachu_ico },
   { name: 'Senior', value: 'senior', img: raichu_ico },
-  { name: 'Ninja', value: 'ninja', img: 'path/to/ninja-pikachu.png' },
+  { name: 'Ninja', value: 'ninja', img: pikachu_ninja_ico },
 ];
 
 const FilterComponent = () => {
