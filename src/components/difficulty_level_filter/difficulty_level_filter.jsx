@@ -5,9 +5,10 @@ import pichu_ico from "../../media/levels_icons/pichu_ico.webp";
 import pikachu_ico from "../../media/levels_icons/pikachu_ico.png";
 import raichu_ico from "../../media/levels_icons/raichu_ico.png";
 import pikachu_ninja_ico from "../../media/levels_icons/pikachu_ninja_ico.jpg";
+import pokeBall_all_ico from "../../media/levels_icons/pokeBall_all.png";
 
 const levels = [
-  { name: 'All', value: 'all', img: 'path/to/all.png' },
+  { name: 'All', value: 'all', img: pokeBall_all_ico },
   { name: 'Junior', value: 'junior', img: pichu_ico },
   { name: 'Mid-Level', value: 'mid', img: pikachu_ico },
   { name: 'Senior', value: 'senior', img: raichu_ico },
