@@ -9,10 +9,10 @@ import pokeBall_all_ico from "../../media/levels_icons/pokeBall_all.png";
 
 const levels = [
   { name: 'All', value: 'all', img: pokeBall_all_ico },
-  { name: 'Junior', value: 'junior', img: pichu_ico },
-  { name: 'Mid', value: 'mid', img: pikachu_ico },
-  { name: 'Senior', value: 'senior', img: raichu_ico },
-  { name: 'Ninja', value: 'ninja', img: pikachu_ninja_ico },
+  { name: 'junior', value: 'junior', img: pichu_ico },
+  { name: 'middle', value: 'mid', img: pikachu_ico },
+  { name: 'senior', value: 'senior', img: raichu_ico },
+  { name: 'ninja', value: 'ninja', img: pikachu_ninja_ico },
 ];
 
 const FilterComponent = () => {
