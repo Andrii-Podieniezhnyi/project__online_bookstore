@@ -3,14 +3,14 @@ import './difficulty_level_filter.css';
 import { useBooks } from '../book_context/book_context';
 import pichu_ico from "../../media/levels_icons/pichu_ico.webp";
 import pikachu_ico from "../../media/levels_icons/pikachu_ico.png";
-import raichu_ico from "../../media/levels_icons/raichu_ico.png";
+import raichu_ico from "../../media/levels_icons/raichu_ico.webp";
 import pikachu_ninja_ico from "../../media/levels_icons/pikachu_ninja_ico.png";
 import pokeBall_all_ico from "../../media/levels_icons/pokeBall_all.png";
 
 const levels = [
   { name: 'All', value: 'all', img: pokeBall_all_ico },
   { name: 'Junior', value: 'junior', img: pichu_ico },
-  { name: 'Mid-Level', value: 'mid', img: pikachu_ico },
+  { name: 'Mid', value: 'mid', img: pikachu_ico },
   { name: 'Senior', value: 'senior', img: raichu_ico },
   { name: 'Ninja', value: 'ninja', img: pikachu_ninja_ico },
 ];
