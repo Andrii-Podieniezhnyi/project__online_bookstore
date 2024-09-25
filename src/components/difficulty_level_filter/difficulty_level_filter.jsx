@@ -4,7 +4,7 @@ import { useBooks } from '../book_context/book_context';
 import pichu_ico from "../../media/levels_icons/pichu_ico.webp";
 import pikachu_ico from "../../media/levels_icons/pikachu_ico.png";
 import raichu_ico from "../../media/levels_icons/raichu_ico.png";
-import pikachu_ninja_ico from "../../media/levels_icons/pikachu_ninja_ico.jpg";
+import pikachu_ninja_ico from "../../media/levels_icons/pikachu_ninja_ico.png";
 import pokeBall_all_ico from "../../media/levels_icons/pokeBall_all.png";
 
 const levels = [
