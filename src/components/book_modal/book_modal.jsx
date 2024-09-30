@@ -19,7 +19,7 @@ export const BookModal = ({ book, onClose }) => {
                         <li key={index}>{benefits}</li>
                     ))}
                 </ul>
-                <p><button className="download_book" onClick = {() => window.location.href = book.download_link}>pdf</button></p>
+                <p><button className="download_book" onClick = {() => window.open( book.download_link, '_blank') }>pdf</button></p>
             </div>
         </div>
     )
