@@ -19,6 +19,7 @@ export const BookModal = ({ book, onClose }) => {
                         <li key={index}>{benefits}</li>
                     ))}
                 </ul>
+                <p><button className="download_book"></button> {book.download_link}</p>
             </div>
         </div>
     )
