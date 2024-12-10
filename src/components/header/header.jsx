@@ -14,16 +14,7 @@ export function Header() {
                     <div className="header_nav__container">
                         <a href="./main">Script Store</a>
                         <ThemeSwitcher />
-                        <div className="header_user__container">
-                            <ul>
-                                <li>
-                                    <a href="./main">
-                                        <img src={user_default_avatar} alt="user_default_avatar"/>
-                                    </a>
-                                    <span className="user_name">Coder</span>
-                                </li>
-                            </ul>
-                        </div>  
+                        <div className="header_user__container"></div>  
                     </div>
                 </nav>
             </section>
