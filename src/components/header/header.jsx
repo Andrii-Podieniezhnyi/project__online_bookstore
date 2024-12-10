@@ -1,5 +1,4 @@
 import React from 'react';
-import user_default_avatar from '../../media/header/user_default_avatar.png';
 import { ThemeSwitcher } from '../theme_switcher/theme_switcher';
 import '../theme_switcher/theme_switcher.css';
 
