@@ -10,6 +10,8 @@ import { BookModal } from './components/book_modal/book_modal';
 import './components/book_list/book_list.css';
 import './style/index.css'
 import './components/book_modal/book_modal.css'
+import { AuthScreen } from './components/auth_screen/auth_screen';
+import './components/auth_screen/auth_screen.css'
 
 function App() {
   return (

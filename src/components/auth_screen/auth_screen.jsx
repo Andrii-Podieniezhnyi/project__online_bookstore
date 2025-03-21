@@ -1,7 +1,7 @@
 import React from "react";
 import './auth_screen.css';
 
-const AuthScreen = () => {
+export const AuthScreen = () => {
 
     return (
         <main>
