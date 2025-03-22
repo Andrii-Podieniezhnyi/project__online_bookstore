@@ -17,14 +17,16 @@ import { AuthProvider } from './components/auth_screen/auth_context';
 function App() {
   return (
     <Router>
-      <BookProvider>
-        <Header />
-        <Routes>
-          <Route path = "/" element = {<BookList />}> </Route>
-          <Route path = "/book/id" element = {<BookModal />}></Route>
-        </Routes>
-        <Footer />
-      </BookProvider>
+      <AuthProvider>
+        <BookProvider>
+          <Header />
+          <Routes>
+            <Route path = "/" element = {<BookList />}> </Route>
+            <Route path = "/book/id" element = {<BookModal />}></Route>
+          </Routes>
+          <Footer />
+        </BookProvider>
+      </AuthProvider>
     </Router> 
   );
 }
