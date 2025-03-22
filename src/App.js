@@ -12,6 +12,7 @@ import './style/index.css'
 import './components/book_modal/book_modal.css'
 import { AuthScreen } from './components/auth_screen/auth_screen';
 import './components/auth_screen/auth_screen.css'
+import { AuthProvider } from './components/auth_screen/auth_context';
 
 function App() {
   return (
