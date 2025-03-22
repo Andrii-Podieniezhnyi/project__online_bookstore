@@ -13,13 +13,12 @@ import './components/book_modal/book_modal.css'
 import { AuthScreen } from './components/auth_screen/auth_screen';
 import './components/auth_screen/auth_screen.css'
 import { AuthProvider } from './components/auth_screen/auth_context';
-//import { Navigate } from 'react-router-dom';
-import { useContext } from 'react';
-import { AuthContext } from './components/auth_screen/auth_context';
+import { Navigate } from 'react-router-dom';
+
 
 function App() {
 
-  const {user} = useContext(AuthContext)
+  
 
   return (
     <Router>
@@ -27,14 +26,10 @@ function App() {
         <BookProvider>
           <Header />
             <Routes>
-              {!user ? (
-                <Route path="*" element={<AuthScreen />} />
-              ) : (
-                <>
-                <Route path= "/booklist" element = {<BookList />}></Route>
-                <Route path = "/book/:id" element = {<BookModal />}></Route>
-                </>
-              )}
+              <Route path = "/" element = {<Navigate to="/auth" />} />
+              <Route path= "/booklist" element = {<BookList />}></Route>
+              <Route path = "/book/:id" element = {<BookModal />}></Route>
+              <Route path= "/auth" element = {<AuthScreen />}></Route>
             </Routes>
           <Footer />
         </BookProvider>
