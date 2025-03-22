@@ -20,11 +20,11 @@ function App() {
       <AuthProvider>
         <BookProvider>
           <Header />
-          <Routes>
-            <Route path = "/" element = {<BookList />}> </Route>
-            <Route path = "/book/id" element = {<BookModal />}></Route>
-            <Route path= "/auth" element = {<AuthScreen />}></Route>
-          </Routes>
+            <Routes>
+              <Route path = "/" element = {<BookList />}> </Route>
+              <Route path = "/book/id" element = {<BookModal />}></Route>
+              <Route path= "/auth" element = {<AuthScreen />}></Route>
+            </Routes>
           <Footer />
         </BookProvider>
       </AuthProvider>
