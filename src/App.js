@@ -8,6 +8,7 @@ import { BookModal } from './components/book_modal/book_modal';
 import { AuthScreen } from './components/auth_screen/auth_screen';
 import { AuthProvider } from './components/auth_screen/auth_context';
 import { Navigate } from 'react-router-dom';
+import { ProtectedRoute } from './components/protected_route/protected_route';
 
 
 import './components/header/header.css'
@@ -31,8 +32,8 @@ function App() {
           <Header />
             <Routes>
               <Route path = "/" element = {<Navigate to="/auth" />} />
-              <Route path= "/booklist" element = {<BookList />}></Route>
-              <Route path = "/book/:id" element = {<BookModal />}></Route>
+              <Route path= "/booklist" element = {<ProtectedRoute><BookList /></ProtectedRoute> }></Route>
+              <Route path = "/book/:id" element = {<ProtectedRoute> <BookModal /></ProtectedRoute>}></Route>
               <Route path= "/auth" element = {<AuthScreen />}></Route>
             </Routes>
           <Footer />
