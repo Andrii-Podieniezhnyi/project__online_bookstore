@@ -16,8 +16,36 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
+
+// Підключення Firebase Authentication
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
 
-export { database, ref, onValue};
+
+// Функція для входу через Google
+
+const loginWithGoogle = async () => {
+  try {
+    const result = await signInWithPopup(auth, provider);
+    return result.user;
+
+  } catch (error) {
+    console.error("Помилка при вході через Google:", error);
+    return null;
+  }
+};
+
+
+
+const logout = async () => {
+  try{
+    await signOut(auth);
+  } catch (error) {
+    console.error("Помилка при виході", error)
+  }
+}
+
+
+
+export { database, ref, onValue, auth, loginWithGoogle, logout};
