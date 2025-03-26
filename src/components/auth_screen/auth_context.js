@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
 
     // Вхід через Google
 
-    const handlelogin = async () => {
+    const handleLogin = async () => {
         const userData = await loginWithGoogle();
 
         if(userData){
@@ -19,14 +19,17 @@ export const AuthProvider = ({ children }) => {
     };
 
 
-    // 
-    const logout = () => {
+    // Вихід
+
+    const handleLogout = async() => {
+        await logout()
         setUser(null);
+        
     }
 
 
     return (
-        <AuthContext.Provider value={{ user, login, logout}}>
+        <AuthContext.Provider value={{ user, handleLogin, handleLogout, logout}}>
             {children}
         </AuthContext.Provider>
     )
