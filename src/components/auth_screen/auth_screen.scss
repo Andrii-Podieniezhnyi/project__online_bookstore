@@ -1,19 +1,40 @@
-.auth-container {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .google-login-btn {
-    background-color: #4285F4;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .google-login-btn:hover {
-    background-color: #357ae8;
-  }
-  
+/* auth_screen.css */
+
+.auth-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.google-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.google-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
