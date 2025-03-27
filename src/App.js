@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation} from 'react-router-dom';
 import { BookProvider } from './components/book_context/book_provider';
 import { Header } from './components/header/header';
 import { Footer } from './components/footer/footer';
@@ -23,20 +23,24 @@ import './components/auth_screen/auth_screen.css'
 
 function App() {
 
+  const location = useLocation();
+
+  const isAuthPage = location.pathname === "/auth";
+
   
 
   return (
     <Router>
       <AuthProvider>
         <BookProvider>
-          <Header />
+          { !isAuthPage && <Header /> } 
             <Routes>
               <Route path = "/" element = {<Navigate to="/auth" />} />
               <Route path= "/booklist" element = {<ProtectedRoute><BookList /></ProtectedRoute> }></Route>
               <Route path = "/book/:id" element = {<ProtectedRoute> <BookModal /></ProtectedRoute>}></Route>
               <Route path= "/auth" element = {<AuthScreen />}></Route>
             </Routes>
-          <Footer />
+          { !isAuthPage && <Footer /> }
         </BookProvider>
       </AuthProvider>
     </Router> 
