@@ -9,7 +9,7 @@ import { AuthScreen } from './components/auth_screen/auth_screen';
 import { AuthProvider } from './components/auth_screen/auth_context';
 import { Navigate } from 'react-router-dom';
 import { ProtectedRoute } from './components/protected_route/protected_route';
-
+import { Layout } from './components/layout/layout';
 
 import './components/header/header.css'
 import './components/footer/footer.css';
@@ -22,11 +22,6 @@ import './components/auth_screen/auth_screen.css'
 
 
 function App() {
-
-  const location = useLocation();
-
-  const isAuthPage = location.pathname === "/auth";
-
   
 
   return (
