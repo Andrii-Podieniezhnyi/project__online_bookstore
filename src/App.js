@@ -1,8 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { BookProvider } from './components/book_context/book_provider';
-import { Header } from './components/header/header';
-import { Footer } from './components/footer/footer';
 import BookList from './components/book_list/book_list';
 import { BookModal } from './components/book_modal/book_modal';
 import { AuthScreen } from './components/auth_screen/auth_screen';
