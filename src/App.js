@@ -27,12 +27,14 @@ function App() {
     <Router>
       <AuthProvider>
         <BookProvider>
-            <Routes>
-              <Route path = "/" element = {<Navigate to="/auth" />} />
+          <Routes>
+            <Route path = "/" element = {<Navigate to="/auth" />} />
+            <Route path = "/" element = {<Layout />}>
               <Route path= "/booklist" element = {<ProtectedRoute><BookList /></ProtectedRoute> }></Route>
               <Route path = "/book/:id" element = {<ProtectedRoute> <BookModal /></ProtectedRoute>}></Route>
-              <Route path= "/auth" element = {<AuthScreen />}></Route>
-            </Routes>
+            </Route>
+            <Route path= "/auth" element = {<AuthScreen />}></Route>
+          </Routes>
         </BookProvider>
       </AuthProvider>
     </Router> 
