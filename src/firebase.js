@@ -27,12 +27,9 @@ const provider = new GoogleAuthProvider();
 
 const loginWithGoogle = async () => {
   try {
-    const result = await signInWithRedirect(auth, provider);
-    return result.user;
-
+    await signInWithRedirect(auth, provider);
   } catch (error) {
     console.error("Помилка при вході через Google:", error);
-    return null;
   }
 };
 
