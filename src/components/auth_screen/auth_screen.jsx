@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import { AuthContext } from "./auth_context";
+import { useNavigate } from "react-router-dom";
 import "./auth_screen.css";
 
 export const AuthScreen = () => {
     const { login } = useContext(AuthContext);
+    const navigate = useNavigate();
 
     return (
         <div className="auth-screen">
