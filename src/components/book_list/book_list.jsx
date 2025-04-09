@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Preloader } from "../preloader/preloader";
 import { useBooks } from "../book_context/book_context";
 import { BookModal } from "../book_modal/book_modal";
+import { WelcomeMessage } from "../welcome_message/welcome_message";
 import FilterComponent from '../difficulty_level_filter/difficulty_level_filter';
 
 
@@ -27,6 +28,7 @@ const BookList = () => {
       <FilterComponent />
           {  loading ? (<Preloader />) : (
              <div className='container mt-4 main_container'>
+              <WelcomeMessage />
               <div className='row'> 
                 {books.map((book) => (
                   <div 
