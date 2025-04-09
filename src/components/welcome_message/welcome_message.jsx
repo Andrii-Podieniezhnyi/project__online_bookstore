@@ -13,5 +13,5 @@ export const WelcomeMessage = () => {
             <h2>Привіт, {user.displayName}</h2>
             <p>Радий тебе бачити у Script Store</p>
         </div>
-    )ж
+    )
 }
