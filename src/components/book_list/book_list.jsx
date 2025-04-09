@@ -4,6 +4,7 @@ import { Preloader } from "../preloader/preloader";
 import { useBooks } from "../book_context/book_context";
 import { BookModal } from "../book_modal/book_modal";
 import { WelcomeMessage } from "../welcome_message/welcome_message";
+import "../welcome_message/welcome_message.css"
 import FilterComponent from '../difficulty_level_filter/difficulty_level_filter';
 
 
