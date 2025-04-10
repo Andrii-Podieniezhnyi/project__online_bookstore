@@ -13,7 +13,7 @@ export const WelcomeMessage = () => {
             <img src={user.photoURL} alt="avatar" className="welcome-avatar"/>
             <div className="welcome-text">
                 <h2>Привіт, {user.displayName}</h2>
-                <p>Радий тебе бачити у Script Store</p>
+                <p>Радий бачити тебе у <strong>Script Store</strong>. Бажаю приємного перегляду книг 📚</p>
             </div>
         </div>
     )
