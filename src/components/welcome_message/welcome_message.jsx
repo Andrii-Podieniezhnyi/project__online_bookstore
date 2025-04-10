@@ -10,9 +10,11 @@ export const WelcomeMessage = () => {
     return(
 
         <div className="welcome-card">
-            <img src={user.photoURL} alt="avatar" className="welcome_avatar"/>
-            <h2>Привіт, {user.displayName}</h2>
-            <p>Радий тебе бачити у Script Store</p>
+            <img src={user.photoURL} alt="avatar" className="welcome-avatar"/>
+            <div className="welcome-text">
+                <h2>Привіт, {user.displayName}</h2>
+                <p>Радий тебе бачити у Script Store</p>
+            </div>
         </div>
     )
 }
