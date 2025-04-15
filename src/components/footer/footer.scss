@@ -7,3 +7,16 @@
     border-top: 1px solid grey;
     margin-top: 45px;
 }
+
+
+.signature {
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #888;
+    transition: color 0.3s ease;
+  }
+  
+  .signature:hover {
+    color: #fff;
+  }
