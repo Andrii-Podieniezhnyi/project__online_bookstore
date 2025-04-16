@@ -22,7 +22,7 @@ import './components/auth_screen/auth_screen.css'
 function App() {
 
   return (
-    <Router>
+    <Router basename='/project__online_bookstore'>
       <AuthProvider>
         <BookProvider>
           <Routes>
