@@ -21,7 +21,7 @@
     "test": "react-scripts --openssl-legacy-provider test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://github.com/Andrii-Podieniezhnyi/project__online_bookstore.git"
   },
   "eslintConfig": {
     "extends": [
