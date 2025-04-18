@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/project__online_bookstore/static/css/main.1987e94a.chunk.css",
+    "main.js": "/project__online_bookstore/static/js/main.58766aa5.chunk.js",
+    "main.js.map": "/project__online_bookstore/static/js/main.58766aa5.chunk.js.map",
+    "runtime~main.js": "/project__online_bookstore/static/js/runtime~main.fcd37b47.js",
+    "runtime~main.js.map": "/project__online_bookstore/static/js/runtime~main.fcd37b47.js.map",
+    "static/css/2.98036eff.chunk.css": "/project__online_bookstore/static/css/2.98036eff.chunk.css",
+    "static/js/2.139be551.chunk.js": "/project__online_bookstore/static/js/2.139be551.chunk.js",
+    "static/js/2.139be551.chunk.js.map": "/project__online_bookstore/static/js/2.139be551.chunk.js.map",
+    "index.html": "/project__online_bookstore/index.html",
+    "precache-manifest.4a148540172a2ab6fbda61ff6f5111d4.js": "/project__online_bookstore/precache-manifest.4a148540172a2ab6fbda61ff6f5111d4.js",
+    "service-worker.js": "/project__online_bookstore/service-worker.js",
+    "static/css/2.98036eff.chunk.css.map": "/project__online_bookstore/static/css/2.98036eff.chunk.css.map",
+    "static/css/main.1987e94a.chunk.css.map": "/project__online_bookstore/static/css/main.1987e94a.chunk.css.map",
+    "static/media/pichu_ico.webp": "/project__online_bookstore/static/media/pichu_ico.ec0607e3.webp",
+    "static/media/pikachu_ico.png": "/project__online_bookstore/static/media/pikachu_ico.d3ada596.png",
+    "static/media/pikachu_ninja_ico.png": "/project__online_bookstore/static/media/pikachu_ninja_ico.3e0a5763.png",
+    "static/media/pokeBall_all.png": "/project__online_bookstore/static/media/pokeBall_all.c2a5a3af.png",
+    "static/media/raichu_ico.webp": "/project__online_bookstore/static/media/raichu_ico.1a03bcf3.webp"
+  }
+}
