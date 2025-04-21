@@ -17,3 +17,9 @@ nav{
             font-size: xx-large;
         }
   }
+
+@media (max-width: 574px) {
+  .color_theme_switcher__button_light, .color_theme_switcher__button_dark{
+    display: none;
+  }
+}
