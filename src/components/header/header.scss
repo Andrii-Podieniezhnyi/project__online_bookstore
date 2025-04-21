@@ -23,3 +23,9 @@ nav{
     display: none;
   }
 }
+
+@media (max-width: 400px) {
+  .header_nav__container a {
+    font: x-large;
+  }
+}
