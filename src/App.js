@@ -22,7 +22,7 @@ import './components/auth_screen/auth_screen.css'
 function App() {
 
   return (
-    <Router basename='/project__online_bookstore'>
+    <Router basename={process.env.NODE_ENV === 'production' ? '/project__online_bookstore' : '/'}>
       <AuthProvider>
         <BookProvider>
           <Routes>
