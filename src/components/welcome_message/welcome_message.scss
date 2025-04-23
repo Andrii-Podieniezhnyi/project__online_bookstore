@@ -42,3 +42,15 @@
     transform: translateY(0);
   }
 }
+
+
+@media ( max-width: 430px ) {
+
+  .welcome-text h2{
+    font-size: 1.1rem
+  }
+
+  .welcome-text p{
+    font-size: 0.5rem;
+  }
+}
