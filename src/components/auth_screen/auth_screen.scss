@@ -50,3 +50,16 @@ h2 {
   height: 24px;
   margin-right: 12px;
 }
+
+
+
+@media (max-width: 355px){
+
+  .auth-card{
+    padding: 30px;
+  }
+
+  .google-btn{
+    padding: 8px 13px;
+  }
+}
